@@ -11,15 +11,14 @@
 	<h2>Welcome to Spring MVC MM Bank Application</h2>
 	<li><a href="createAccount">Add New Savings Account</a></li>
 	<li><a href="updateAccount">Update Account</a></li>
+	<li><a href="searchForm">Search Account</a></li>
 	<li><a href="closeAccount">Close Account</a></li>
-	<li><a href="searchAccount">Search Account</a></li>
+	<li><a href="getCurrentBalance"> Get Current Balance</a></li>
 	<li><a href="withdraw">Withdraw</a></li>
 	<li><a href="deposit">Deposit</a></li>
 	<li><a href="fundTransfer">Fund Transfer</a></li>
-	<li><a href="getCurrentBalance"> Get Current Balance</a></li>
 	<li><a href="getAllForm">Get All Accounts Details</a></li>
-	<li><a href="sortForm">Sort Account</a></li>
-	<li><a href="exitForm">Exit</a></li>
+
 
 </body>
 </html>

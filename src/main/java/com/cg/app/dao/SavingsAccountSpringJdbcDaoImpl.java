@@ -80,7 +80,7 @@ public class SavingsAccountSpringJdbcDaoImpl implements SavingsAccountDAO {
 	public SavingsAccount getAccountByName(String accountHolderName)
 			throws AccountNotFoundException {
 		return jdbctemplate.queryForObject("SELECT * from account WHERE account_hn=?",
-				new Object[] { accountHolderName }, new SavingsAccountMapper());
+				new Object[] {accountHolderName}, new SavingsAccountMapper());
 	}
 
 	@Override

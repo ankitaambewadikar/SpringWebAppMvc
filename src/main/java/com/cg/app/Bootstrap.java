@@ -17,8 +17,8 @@ public class Bootstrap {
 	 */
 
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-		AccountCUI cui = context.getBean(AccountCUI.class,"context.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		AccountCUI cui = context.getBean(AccountCUI.class);
 		cui.start();
 		
 	}
