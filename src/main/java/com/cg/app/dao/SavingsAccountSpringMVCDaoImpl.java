@@ -13,7 +13,7 @@ import com.cg.app.rowMapper.SavingsAccountMapper;
 
 @Repository
 @Primary
-public class SavingsAccountSpringJdbcDaoImpl implements SavingsAccountDAO {
+public class SavingsAccountSpringMVCDaoImpl implements SavingsAccountDAO {
 
 	@Autowired
 	private JdbcTemplate jdbctemplate;

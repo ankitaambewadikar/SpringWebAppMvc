@@ -8,9 +8,12 @@
 </head>
 <body>
 	<form action="searchByAccountNumber" method="post">
-		
+
 		Enter Account Number: <input type="number" name="txtAccountNumber" />
 		<br /> <input type="submit" value="Submit">
 	</form>
+	<div>
+		<jsp:include page="homeLink.html"></jsp:include>
+	</div>
 </body>
 </html>

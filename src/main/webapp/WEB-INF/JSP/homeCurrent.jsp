@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<h2>Welcome to Spring MVC MM Bank Application</h2>
-	<li><a href="createAccount">Add New Account</a></li>
+<h2>CURRENT ACCOUNT</h2>
+	<li><a href="createAccount">Add New Savings Account</a></li>
 	<li><a href="updateAccount">Update Account</a></li>
 	<li><a href="closeAccount">Close Account</a></li>
 	<li><a href="searchAccount">Search Account</a></li>
@@ -19,7 +18,5 @@
 	<li><a href="getCurrentBalance"> Get Current Balance</a></li>
 	<li><a href="getAllForm">Get All Accounts Details</a></li>
 	<li><a href="sortAccounts">Sort Account</a></li>
-	<!-- <li><a href="exitForm">Exit</a></li> -->
-
 </body>
 </html>

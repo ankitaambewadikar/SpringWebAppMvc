@@ -12,10 +12,10 @@ public class SavingsAccountMapper implements RowMapper<SavingsAccount> {
 
 	@Override
 	public SavingsAccount mapRow(ResultSet rs, int rowNum) throws SQLException {
-		System.out.println("In map " +rs.getInt("account_id"));
+		//System.out.println("In map " +rs.getInt("account_id"));
 		//if(rs.getInt("account_id"))
 		return new SavingsAccount(rs.getInt("account_id"), rs.getString("account_hn"), rs.getDouble("account_balance"),
-				rs.getBoolean("salary"));
+				rs.getBoolean("salary"),rs.getString("type"));
 
 	}
 

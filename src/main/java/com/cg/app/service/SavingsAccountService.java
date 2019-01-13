@@ -1,10 +1,8 @@
 package com.cg.app.service;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import com.cg.app.account.SavingsAccount;
-import com.cg.app.dao.SavingsAccountDAO;
 import com.cg.app.exception.AccountNotFoundException;
 
 public interface SavingsAccountService {
@@ -26,10 +24,6 @@ public interface SavingsAccountService {
 	void deposit(SavingsAccount account, double amount);
 
 	void withdraw(SavingsAccount account, double amount);
-
-	// SavingsAccount updateAccountByIsSalaried(int accountNumber, boolean
-	// newIssalaried) throws ClassNotFoundException, SQLException,
-	// AccountNotFoundException;
 
 	SavingsAccount getAccountByName(String accountHolderName) throws AccountNotFoundException;
 

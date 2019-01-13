@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Transaction Successful</h2>
-
-	<div>
-		<jsp:include page="homeLink.html"></jsp:include>
-	</div>
+	<form action="newAccount"></form>
+	<h2>Which type of Account want to Open?</h2>
+	<li><a href="newSavingsAccount">Savings Account</a></li>
+	<li><a href="newCurrentAccount">Current Account</a></li>
+	</form>
 </body>
 </html>

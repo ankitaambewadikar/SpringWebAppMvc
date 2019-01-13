@@ -13,7 +13,7 @@ public interface SavingsAccountDAO {
 	SavingsAccount deleteAccount(int accountNumber);
 	List<SavingsAccount> getAllSavingsAccount() ;
 	void updateBalance(int accountNumber, double currentBalance);
-	//void commit() throws SQLException;
+	
 	SavingsAccount updateAccount(SavingsAccount savingAccount) throws AccountNotFoundException;
 	
 	SavingsAccount getAccountByName(String accountHolderName) throws AccountNotFoundException;

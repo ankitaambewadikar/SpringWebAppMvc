@@ -9,9 +9,9 @@
 	<table>
 		<tr>
 			<th>Account Number</th>
-			<th><a href="sortByName.mm">Holder Name</a></th>
-			<th><a href="sortByBalance.mm">Account Balance</a></th>
-			<th><a href="sortBySalary.mm">Salary</a></th>
+			<th><a href="sortByName">Holder Name</a></th>
+			<th><a href="sortByBalance">Account Balance</a></th>
+			<th><a href="sortBySalary">Salary</a></th>
 			<th>Over Draft Limit</th>
 			<th>Type Of Account</th>
 		</tr>
@@ -22,7 +22,7 @@
 				<td>${account.bankAccount.accountBalance}</td>
 				<td>${account.salary==true?"Yes":"No"}</td>
 				<td>${"N/A"}</td>
-				<td>${"Savings"}</td>
+				<td>${account.bankAccount.type}</td>
 			</tr>
 		</jstl:if>
 		<jstl:if test="${accounts!=null}">
@@ -33,7 +33,7 @@
 					<td>${account.bankAccount.accountBalance}</td>
 					<td>${account.salary==true?"Yes":"No"}</td>
 					<td>${"N/A"}</td>
-					<td>${"Savings"}</td>
+					<td>${account.bankAccount.type}</td>
 				</tr>
 			</jstl:forEach>
 		</jstl:if>

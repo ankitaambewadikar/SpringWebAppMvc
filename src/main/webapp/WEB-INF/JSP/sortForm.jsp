@@ -7,7 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Transaction Successful</h2>
+	<form action="sort">
+		<h3>Sort Account By</h3>
+		<li><a href="sortByAccountNumber">By Account Number</a></li>
+		<li><a href="sortByAccountHolderName">By Holder Name</a></li> 
+		<li><a href="sortBySalaryType">By Salary Type</a></li> <br>
+	</form>
+
 
 	<div>
 		<jsp:include page="homeLink.html"></jsp:include>

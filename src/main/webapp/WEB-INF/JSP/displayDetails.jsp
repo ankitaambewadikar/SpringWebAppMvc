@@ -40,5 +40,8 @@
 			</jstl:forEach>
 		</jstl:if> --%>
 		</table>
+		<div>
+		<jsp:include page="homeLink.html"></jsp:include>
+	</div>
 </body>
 </html>

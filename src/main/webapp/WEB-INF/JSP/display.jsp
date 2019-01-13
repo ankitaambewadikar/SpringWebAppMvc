@@ -11,5 +11,8 @@
 	 Account Holder Name: ${account.bankAccount.accountHolderName} --%>
 	 Account Balance: ${account}
 	<%--  Salary: ${account.salary} --%>
+	<div>
+		<jsp:include page="homeLink.html"></jsp:include>
+	</div>
 </body>
 </html>
